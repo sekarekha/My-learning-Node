@@ -1,0 +1,6 @@
+git clone "Url"
+git status
+git add filename
+git add -A (it will add all files)
+git commit -m "comments" 
+git push
