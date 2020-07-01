@@ -1,0 +1,6 @@
+var fs=require('fs');
+fs.rename('write.txt','WRITE.txt',function(err)
+{
+   if(err)throws err;
+   console.log('file created')
+}
