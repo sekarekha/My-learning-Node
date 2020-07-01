@@ -1,0 +1,9 @@
+var fs= require('fs');
+fs.writefile('write.txt','learning nodejs',function(err)
+{
+      if(err)throw err;
+      console.log('file created')
+
+
+}
+)
