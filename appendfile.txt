@@ -1,0 +1,8 @@
+var fs=require('fs');
+fs.appendfile('write.txt','from nodejs',function(err)
+ {
+    if(err)throw err;
+     console.log("File created)
+
+
+  })
