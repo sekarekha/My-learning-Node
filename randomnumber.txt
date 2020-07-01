@@ -1,0 +1,6 @@
+var fs=require('fs');
+fs.appendFile('Write.txt',Math.floor(Math.random()*(max-min))+1+ 'this is from nodejs',function(err)
+{
+   if(err)throw err;
+   console.log('file created')
+})
